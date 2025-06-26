@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DRDN - Disaster Map</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLG-dKKiuxmI4UGjZzn1OJkAwN9DG44pQ&callback=initMap" async defer></script>
+</head>
+<body>
+  <h1>Disaster-Ready Delivery Network</h1>
+  <form id="routeForm">
+    <input id="zone" placeholder="Disaster Zone" required>
+    <input id="pickup" placeholder="Pickup Location" required>
+    <input id="drop" placeholder="Drop Location" required>
+    <button type="submit">Submit Route</button>
+  </form>
+  <div id="map" style="height:500px;"></div>
+  <script src="script.js"></script>
+</body>
+</html>

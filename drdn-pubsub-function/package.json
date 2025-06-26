@@ -1,0 +1,8 @@
+{
+    "name": "drdn-pubsub-function",
+    "version": "1.0.0",
+    "dependencies": {
+      "@google-cloud/pubsub": "^3.0.0"
+    }
+  }
+  
